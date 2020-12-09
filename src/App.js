@@ -10,9 +10,6 @@ const { Header, Footer, Sider, Content } = Layout
 const App = ({ children }) => {
 
 
-	const activeOff = () => {
-
-	}
 	return (<>
 
 
@@ -40,7 +37,7 @@ const App = ({ children }) => {
 							<li><NavLink to='/administration'>Пладные услуги</NavLink></li>
 							<li><NavLink to='/administration'>Факультативы</NavLink></li>
 							<li><NavLink to='/administration'>Мероприятия</NavLink></li>
-							<li><NavLink to='/administration'>Библиотека</NavLink></li>
+							<li><NavLink to='/library'>Библиотека</NavLink></li>
 						</ul>
 					</S.Sitebar>
 				</Sider>

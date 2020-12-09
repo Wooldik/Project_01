@@ -11,6 +11,7 @@ const Administration = () => {
 	return (<>
 		<S.List  >
 			{contacts.administrations.map((cardObj) => {
+
 				return (<Card
 					key={cardObj.id}
 					photo={cardObj.photo}

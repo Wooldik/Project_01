@@ -11,6 +11,7 @@ import thunk from 'redux-thunk';
 import Main from './components/Main/Main'
 import Administration from './components/Administration/Administration'
 import Teachers from './components/Teachers/Teachers';
+import OnlineLibrary from './components/OnlineLibrary/OnlineLibrary';
 
 
 const store = createStore(mainReducer, composeWithDevTools(applyMiddleware(thunk)))
@@ -24,6 +25,8 @@ ReactDOM.render(
 					<Route exact path='/' component={Main} />
 					<Route path='/administration' component={Administration} />
 					<Route path='/teachers' component={Teachers} />
+					<Route path='/library' component={OnlineLibrary} />
+
 				</Switch>
 			</App>
 		</Provider>
