@@ -47,7 +47,7 @@ const App = ({ children }) => {
 
 
 
-				<Content style={{ display: 'flex' }}>
+				<Content style={{ display: 'flex', justifyContent: 'space-around' }}>
 
 					{children}
 
@@ -90,14 +90,26 @@ const S = {
 			
 		}
 		& li{
-			padding:10px;
-			cursor: pointer;
+			display: flex;
+  			align-items: center;
+			
 		}
-		& li:hover{
-			background:#fff;
-			transition: all .8s ease;
+		
+		& a{
+			color: #fff;
+			text-decoration: none;
+			height: 100%;
+			width: 100%;
+			padding: 20px ;
+			
 			}
-	` ,
+			& a:hover
+			 {
+				transition: all .8s ease;
+				background-color: #fff;
+				color:#001529;
+}
+	`,
 	Bg: styled.div`
 	flex-basis: '800px' ;
 	padding:10px;

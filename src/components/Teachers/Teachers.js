@@ -7,7 +7,7 @@ const Teachers = () => {
 	const contacts = useSelector(store => store.contacts);
 
 
-	console.log(contacts);
+
 	return (<S.List  >
 		{contacts.teachers.map((cardObj) => {
 			return (<Card
@@ -32,6 +32,7 @@ const S = {
 	  flex-wrap: wrap;
 	  overflow: hidden;
 	  justify-content:space-around;
+	  width:100%;
   `
 }
 

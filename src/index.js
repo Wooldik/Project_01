@@ -23,7 +23,7 @@ ReactDOM.render(
 				<Switch>
 					<Route exact path='/' component={Main} />
 					<Route path='/administration' component={Administration} />
-					<Route path='/administration' component={Teachers} />
+					<Route path='/teachers' component={Teachers} />
 				</Switch>
 			</App>
 		</Provider>
