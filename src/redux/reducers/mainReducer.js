@@ -113,37 +113,37 @@ const defaultState = {
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/0c2/375_515_0/0c2f9825620d6e54e309f6dc0a141e81.jpg',
 					id: '4',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'phisics'
 				},
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/dc1/375_515_0/dc1d377077521f29c9095ad95492a101.jpg',
 					id: '5',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'biology'
 				},
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/15d/375_515_0/15d2c99b9091fe2334921c52649735e2.jpg',
 					id: '6',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'algebra'
 				},
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/ac0/375_515_0/id01883.jpg',
 					id: '7',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'social'
 				},
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/ffd/375_515_0/ffd6ff092d8f2caf8c171e619c9546e4.jpg',
 					id: '8',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'inform'
 				},
 				{
 					book: 'https://www.aversev.by/upload/resize_cache/iblock/e54/375_515_0/e5479b4b5d6fd0395a7de91b65a65b71.jpg',
 					id: '1',
-					src: '',
+					src: 'https://yadi.sk/d/jwE_ltALUdzwyg',
 					name: 'geographi'
 				},
 

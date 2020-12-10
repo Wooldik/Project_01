@@ -14,13 +14,18 @@ const App = ({ children }) => {
 
 
 		<Layout >
-			<Header style={{ maxHeight: '60px', background: "#0092ff" }}>
-				<Col span={3}>
+			<Header style={{ maxHeight: '60px', background: "#0092ff" ,display:'flex', flexWrap:'wrap', justifyContent:'center'}}>
+			
+				<Col span={6}>
 					<NavLink to='/'>
 						<S.LogoImg src='https://educentr-kudrovo.vsevobr.ru/images/gerb1.png' />
 					</NavLink>
+					{/* <h2>Государственное учреждение образования "Средняя школа № 12 г.Гомеля"</h2> */}
 				</Col>
-				<Col span={6} offset={18}>
+				<Col span={12}>
+					<h4>ГУО "Средняя школа № 12 г.Гомеля"</h4>
+				</Col>
+				<Col span={6} >
 					<NavLink to='/'>
 						<S.LogoImg src='https://educentr-kudrovo.vsevobr.ru/images/gerb1.png' />
 					</NavLink>
@@ -38,6 +43,7 @@ const App = ({ children }) => {
 							<li><NavLink to='/administration'>Факультативы</NavLink></li>
 							<li><NavLink to='/administration'>Мероприятия</NavLink></li>
 							<li><NavLink to='/library'>Библиотека</NavLink></li>
+							<li><NavLink to='/about'>О нас</NavLink></li>
 						</ul>
 					</S.Sitebar>
 				</Sider>

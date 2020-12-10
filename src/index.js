@@ -12,6 +12,7 @@ import Main from './components/Main/Main'
 import Administration from './components/Administration/Administration'
 import Teachers from './components/Teachers/Teachers';
 import OnlineLibrary from './components/OnlineLibrary/OnlineLibrary';
+import About from './components/About/About'
 
 
 const store = createStore(mainReducer, composeWithDevTools(applyMiddleware(thunk)))
@@ -26,6 +27,8 @@ ReactDOM.render(
 					<Route path='/administration' component={Administration} />
 					<Route path='/teachers' component={Teachers} />
 					<Route path='/library' component={OnlineLibrary} />
+					<Route path='/about' component={About} />
+
 
 				</Switch>
 			</App>
